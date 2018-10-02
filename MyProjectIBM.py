@@ -26,7 +26,7 @@ for tweet in tweets[:5]:
 
 #to correct any grammatical mistakes
 
-blob = TextBlob(tweet.txt) 
+blob = TextBlob(tweet.text) 
 blob.correct()
 print(blob.sentences)
 
