@@ -45,9 +45,9 @@ avgpublic= sum(publicm)/i
 
 if(avgmood,avgpublic>0.5):
    print("Stay positive like this and spread Positivity")
-elif(avgmood<0.5 && avgpublic>0.5):
+elif(avgmood<0.5 and avgpublic>0.5):
    print("Do not stress up yourselves, Rules will change and so the world")
-elif(avgmood>0.5 && avgpublic<0.5):
+elif(avgmood>0.5 and avgpublic<0.5):
    print("Keep up with this sentiment")
 elif(avgmood,avgpublic<0.5):
    print("Hey! you know you aren't the one with the problems, if you fear with these problems in ur life, what you will do in future?? think about family and well wishers of u, we all want u to be happy")
