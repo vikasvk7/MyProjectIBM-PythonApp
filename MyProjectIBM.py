@@ -1,6 +1,6 @@
 import tweepy 
 from textblob import TextBlob
-
+import webbrowser
 #A twitter application is created from twitters website and u will get these credentials
 consumer_key = "Here goes your consumer Key"
 consumer_secret= "Here, consumer secret"
@@ -52,7 +52,7 @@ elif(avgmood>0.5 and avgpublic<0.5):
 elif(avgmood,avgpublic<0.5):
    print("Hey! you know you aren't the one with the problems, if you fear with these problems in ur life, what you will do in future?? think about family and well wishers of u, we all want u to be happy")
    print("Just take a nap while listening to it")
-   print("https://youtu.be/7GSre2_s2uo")
+   webbrowser.open("https://youtu.be/snxeh6wqNbk")
 else:
    print("Some error in evaluation")
    
